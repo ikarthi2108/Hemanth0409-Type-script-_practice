@@ -46,7 +46,7 @@ class Course{
     }
 
 
-    let d= new Admin(1,"Web Development",101,"Hemanth","Developer",1001,"Ramji")
+    let d= new Admin(10,"software",101,"karthikeyan","Developer",1000,"kumar")
    d.courseDetails();
    d.employeeDetails();
     d.adminDetails();

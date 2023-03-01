@@ -25,7 +25,7 @@ class Commerical extends ElectricityBill {
         console.log("Rate = " + (10 * this.units));
     }
 }
-let c = new Domestic(100);
-let g = new Commerical(200);
+let c = new Domestic(150);
+let g = new Commerical(250);
 c.billDetails();
 g.billDetails();

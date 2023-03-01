@@ -30,7 +30,7 @@ class Commerical extends ElectricityBill{
     }
 
 }
-let c = new Domestic(100);
-let g= new Commerical(200);
+let c = new Domestic(150);
+let g= new Commerical(250);
 c.billDetails();
 g.billDetails();
